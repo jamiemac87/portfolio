@@ -19,3 +19,9 @@ github_username:  jamiemac87
 
 # Build settings
 markdown: kramdown
+
+# Include
+include: ["_pages"]
+
+# Exclude
+exclude: ["gulpfile.js", "gulpfile.config.js", "node_modules", "package.json"]

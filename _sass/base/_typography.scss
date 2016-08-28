@@ -1,0 +1,61 @@
+/*
+* @name:
+* _typography.scss
+* @description:
+* Contains all styles relating to the projects base typography
+* @author:
+* Jamie McInerney
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Cutive+Mono';
+@import 'https://fonts.googleapis.com/css?family=Carrois+Gothic+SC';
+
+html {
+  font-size: 62.5% !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $header-font;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 3.2rem;
+  line-height: 5rem;
+  letter-spacing: .4rem;
+  text-transform: lowercase;
+}
+
+p,
+a
+{
+  font-family: $body-font;
+  font-size: 1.8rem;
+  color: $font-black;
+}
+
+p {
+  line-height: 2.6rem;
+
+  &.tagline {
+    font-size: 1.4rem;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+hr {
+  margin-bottom: 1rem;
+  width: 50px;
+  border-top: 1px solid $font-black;
+}

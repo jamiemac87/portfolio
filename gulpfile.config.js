@@ -1,4 +1,4 @@
-exports = function() {
+module.exports = function() {
   var config = {
     siteRoot: '_site'
   };

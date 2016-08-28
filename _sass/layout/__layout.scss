@@ -1,0 +1,12 @@
+/*
+@name:
+__layout.scss
+@description:
+This file imports all partials found in the layout folder.
+Layout components are things like header, footer, nav etc
+@author:
+Jamie McInerney
+*/
+@import "page-border";
+@import "main-content";
+@import "footer";

@@ -1,3 +1,15 @@
 ---
 ---
-@import "base";
+/*
+@name:
+main.scss
+@description:
+The projects main stylesheet where all partials are imported &
+compiled into the final css file.
+@author:
+Jamie McInerney
+*/
+@import "vendor/_vendor.scss";
+@import "base/_base.scss";
+@import "components/_components.scss";
+@import "layout/_layout.scss";

@@ -3,7 +3,7 @@ var gulp = require('gulp');
 var gUtil = require('gulp-util');
 var child = require('child_process');
 var browserSync = require('browser-sync').create();
-var config = require('./gulp.config')();
+var config = require('./gulpfile.config')();
 
 /**
  * Jekyll build task

@@ -1,0 +1,32 @@
+/*
+@name:
+_footer.scss
+@description:
+Styles for the websites footers
+@author:
+Jamie McInerney
+*/
+.main-footer {
+  position: absolute;
+  bottom: 3rem;
+}
+
+.main-footer__email {
+  font-size: 1.4rem;
+}
+
+.main-footer__email,
+i,
+p {
+  margin-right: 1rem;
+}
+
+.cv-command {
+  font-size: 1.4rem;
+
+  span {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}

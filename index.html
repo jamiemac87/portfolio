@@ -1,11 +1,27 @@
 ---
 layout: default
 ---
-<main class="grid" role="main">
-  <section class="hero unit whole">
-    <div class="logo"></div>
-    <h1>i make websites <br> &amp; <br> i f___ing love it!</h1>
-    <hr>
-    <p class="tagline">That pretty much sums it up.</p>
+<main role="main">
+  <section class="grid hero">
+    <div class="unit whole hero__inner-wrapper">
+      <div class="logo"></div>
+      <h1>i make websites <br> &amp; <br> i f___ing love it!</h1>
+      <hr>
+      <p class="tagline">That pretty much sums it up.</p>
+    </div>
+  </section>
+
+  <section class="grid post-list">
+    <ul class="unit">
+      {% for post in site.posts %}
+      <li class="post-thumb">
+        <a href="{{ post.url }}.html">
+          <img class="post-thumb__img" src="{{ post.hero-img }}" alt="">
+          <p class="post-thumb__title">{{ post.title }}</p>
+          <hr>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </section>
 </main>

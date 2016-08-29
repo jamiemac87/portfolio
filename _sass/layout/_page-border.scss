@@ -14,27 +14,27 @@ Jamie McInerney
     @extend .page-border;
     top: 0;
     width: 100%;
-    border-top: 15px solid black;
+    border-top: 2rem solid black;
   }
 
   &--bottom {
     @extend .page-border;
     bottom: 0;
     width: 100vw;
-    border-bottom: 15px solid black;
+    border-bottom: 2rem solid black;
   }
 
   &--left {
     @extend .page-border;
     left: 0;
     height: 100vh;
-    border-left: 15px solid black;
+    border-left: 2rem solid black;
   }
 
   &--right {
     @extend .page-border;
     right: 0;
     height: 100vh;
-    border-right: 15px solid black;
+    border-right: 2rem solid black;
   }
 }

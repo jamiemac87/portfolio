@@ -1,0 +1,38 @@
+/*
+@name:
+_post-list.scss
+@description:
+Styles relating to the post list and post thumb molecules
+@author:
+Jamie McInerney
+*/
+
+.post-list {}
+
+.post-thumb{
+  margin-bottom: 5rem;
+  max-width: 45rem;
+
+  &:hover {
+    .post-thumb__img {
+      transform: scale(1.01);
+      transition: .2s transform ease-out;
+    }
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  &__img {
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border: .3rem solid $black;
+    transition: .4s transform ease-out;
+  }
+
+  &__title {
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+  }
+}
